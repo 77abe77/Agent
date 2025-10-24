@@ -1,0 +1,16 @@
+{
+  "name": "tdl-to-jsonschema-bun",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Convert TDL 1.2 typedoc YAML into JSON Schema variants for OpenAI Structured Outputs and Gemini jsonschema_gemini.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "cli": "bun run src/cli.ts",
+    "demo": "bun run src/cli.ts examples/example.tdl.yaml"
+  },
+  "dependencies": {
+    "yaml": "^2.5.1"
+  },
+  "devDependencies": {
+  }
+}
